@@ -1,0 +1,12 @@
+version: "3.3"
+
+networks:
+   default:
+      external:
+         name: syntheticnet
+
+services:
+  synthetic-data-generator-file:
+    container_name: csv-data-sender
+    build:
+      context: .
