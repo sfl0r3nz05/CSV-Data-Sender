@@ -36,7 +36,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: sflorenz05/publisher-agent
+          images: sflorenz05/csv-data-sender
           tag-custom: latest
           tag-semver: |
             {{raw}}
