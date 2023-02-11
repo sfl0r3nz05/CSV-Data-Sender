@@ -1,28 +1,32 @@
-# csv data sender
+# CSV Data Sender
 
-# csv data sender for safeloc project
-
-- [csv data sender for safeloc project](#csv-data-sender-for-safeloc-project)
+- [CSV Data Sender](#csv-data-sender)
   - [Contributors](#contributors)
+  - [Project status](#project-status)
   - [Description](#description)
   - [Architecture](#architecture)
+  - [Generate data](#generate-data)
   - [How to use](#how-to-use)
 
 ## Contributors
 
-- **Íñigo Juarros**  - [ijuarrosu](ijuarrosu@ceit.es)
+- **Santiago Figueroa**  - [sfigueroa](sfigueroa@ceit.es)
+
+## Project status
+
+- The project is under development: 🛠
 
 ## Description
 
-A small script designed to replace the [Synthetic Data Generator](https://git.unav.edu/daim/safeloc/synthetic-data-generator) for testing/devepment purposes, to do that the programm reads data from a .csv file and sends it to the [Publisher agent](https://git.unav.edu/daim/safeloc/publisher_agent) via socket in the same format used by the [Synthetic Data Generator](https://git.unav.edu/daim/safeloc/synthetic-data-generator).
+- Basic project to send data from a CSV file over a socket.
 
 ## Architecture
 
-![project architecture](img/arqCsv.PNG "Title")
+![project architecture]()
 
 ## Generate data
 
-The scrip will take the data from the .csv file on the main directory, to generate a compatible file use the ``trazar ruta`` option in the analisis page from the the [frontend](https://git.unav.edu/daim/safeloc/frontend), draw your route and press the ``Guardar ruta`` button, this will download a csv file, take that file and place it in the same folder as the ``reader.py`` file.
+
 
 ## How to use
 
