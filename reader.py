@@ -2,13 +2,11 @@ import csv
 import socket
 import time
 
-with open("Datos_tags.csv", 'r') as file:
+with open("positioning_data.csv", 'r') as file:
   csvreader = csv.reader(file)
   send_server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
   for row in csvreader:
-    #print(row)
-    #print(row[0])
     row[0]=row[0].replace('"', '')
     aux = row[0].split(";")
     if(aux[2]!="Y"):
