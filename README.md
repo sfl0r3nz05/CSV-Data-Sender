@@ -10,6 +10,14 @@
 
 ![project architecture]()
 
+## Requirements
+
+The requirements are to have docker installed and a network called `syntheticnet` created on it, to install docker you can follow [this](https://docs.docker.com/engine/install/) guide, and to create a docker network run the following command:
+
+```bash
+docker network create syntheticnet
+```
+
 ## Generate data
 
 ## How to use
