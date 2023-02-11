@@ -1,0 +1,17 @@
+name: CSV Data Sender
+run-name: ${{ github.actor }} to CSV Data Sender
+on: [push]
+
+jobs:
+  build-csv-data-sender:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - dockerfile: ./Dockerfile
+            image: sflorenz05/csv-data-sender
+            context: ./
+    permissions:
+      contents: read
+      packages: write
