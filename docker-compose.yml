@@ -10,3 +10,6 @@ services:
     container_name: csv-data-sender
     build:
       context: .
+    environment:
+      - SOCK_LISTENER_HOST=publisher
+      - SOCK_LISTENER_PORT=8053
