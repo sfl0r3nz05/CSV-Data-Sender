@@ -2,13 +2,13 @@
 
 - Basic project to send data from a CSV file over a socket.
 
+>**Note:** At this moment the project is ad-hoc to send positioning data loaded in CSV, but in the To Do is to give guidelines to send any kind of data.
+
 ## Project status
 
 - The project is under development: 🛠 by [sfl0r3nz05](sfigueroa@ceit.es)
 
 ## Architecture
-
-![project architecture]()
 
 ## Requirements
 
@@ -18,7 +18,7 @@ The requirements are to have docker installed and a network called `syntheticnet
 docker network create syntheticnet
 ```
 
-## Generate data
+## How to Generate new data
 
 ## How to use
 
@@ -35,8 +35,11 @@ docker network create syntheticnet
     docker-compose up
     ```
 
+- [Demonstration video of sending data to an AMQP publisher agent](./documentation/agent_AMQP.mp4)
+- [Demostration Video of sending data to a MQTT publisher agent](./documentation/agent_AMQP.mp4)
+
 ## To Do
 
 - Add trivy vulnerability scanner to github workflow
-- Build a container as part of the github workflow
-- Push the container to Docker Hub registry
+- Improve project documentation
+- Manage any kind of data
