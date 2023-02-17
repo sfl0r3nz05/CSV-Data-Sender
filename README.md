@@ -1,6 +1,6 @@
 # CSV Data Sender
 
-- Basic project to send data from a CSV file over a socket.
+Basic project to send data from a CSV file over a socket.
 
 >**Note:** At this moment the project is ad-hoc to send positioning data loaded in CSV, but in the To Do is to give guidelines to send any kind of data.
 
