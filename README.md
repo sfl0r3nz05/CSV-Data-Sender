@@ -12,11 +12,20 @@
 
 ## Requirements
 
-The requirements are to have docker installed and a network called `syntheticnet` created on it, to install docker you can follow [this](https://docs.docker.com/engine/install/) guide, and to create a docker network run the following command:
+- The requirements are to have docker installed and a network called `syntheticnet` created on it, to install docker you can follow [this](https://docs.docker.com/engine/install/) guide, and to create a docker network run the following command:
 
-```bash
-docker network create syntheticnet
-```
+  ```bash
+  docker network create syntheticnet
+  ```
+
+- In case of using the agent to connect to an already existing network, it will be enough to modify the docker-compose file. E.g.:
+
+  ```console
+  networks:
+    default:
+        external:
+           name: syntheticnet
+  ```
 
 ## How to Generate new data
 
@@ -35,8 +44,8 @@ docker network create syntheticnet
     docker-compose up
     ```
 
-- [Demonstration video of sending data to an AMQP publisher agent](./documentation/agent_AMQP.mp4)
-- [Demostration Video of sending data to a MQTT publisher agent](./documentation/agent_AMQP.mp4)
+- [Demonstration video of sending data to an AMQP publisher agent](https://youtu.be/OavGNGMnQZ4)
+- [Demostration Video of sending data to a MQTT publisher agent](https://youtu.be/k_vCP0BRygY)
 
 ## To Do
 
