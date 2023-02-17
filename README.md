@@ -12,7 +12,7 @@ Basic project to send data from a CSV file over a socket.
 
 - The CSV Data Sender must be ready for use in any environment. E.g.:
 
-![Architecture3](https://user-images.githubusercontent.com/6643905/219713121-d5684b33-8308-4d06-9a6f-5d5050baeb16.png)
+![Architecture3](https://user-images.githubusercontent.com/6643905/219717111-a68e0f2b-423e-489a-893f-a04f3c2ee195.png)
 
 ## Requirements
 
