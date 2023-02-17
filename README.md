@@ -10,6 +10,10 @@
 
 ## Architecture
 
+- The CSV Data Sender must be ready for use in any environment. E.g.:
+
+![Architecture3](https://user-images.githubusercontent.com/6643905/219713121-d5684b33-8308-4d06-9a6f-5d5050baeb16.png)
+
 ## Requirements
 
 - The requirements are to have docker installed and a network called `syntheticnet` created on it, to install docker you can follow [this](https://docs.docker.com/engine/install/) guide, and to create a docker network run the following command:
