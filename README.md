@@ -48,9 +48,11 @@ Basic project to send data from a CSV file over a socket.
     docker-compose up
     ```
 
-- [Demonstration video of sending data from the SDG to an AMQP publisher agent](https://youtu.be/OavGNGMnQZ4)
-- [Demostration Video of sending data from the SDG to a MQTT publisher agent](https://youtu.be/k_vCP0BRygY)
-- [Video demonstration of sending data from the SDG to an information flow formed by the Publisher Agent MQTT and Fiware](https://youtu.be/lwRACg6GNws)
+   ### Demonstration
+
+   - [Demonstration video of sending data from the SDG to an AMQP publisher agent](https://youtu.be/OavGNGMnQZ4)
+   - [Demostration Video of sending data from the SDG to a MQTT publisher agent](https://youtu.be/k_vCP0BRygY)
+   - [Demonstration of sending data to the next information flow: SDG -> Publisher Agent MQTT -> Fiware](https://youtu.be/lwRACg6GNws)
 
 ## To Do
 
