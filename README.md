@@ -12,7 +12,14 @@ Basic project to send data from a CSV file over a socket.
 
 - The CSV Data Sender must be ready for use in any environment. E.g.:
 
-![Architecture3](https://user-images.githubusercontent.com/6643905/219717111-a68e0f2b-423e-489a-893f-a04f3c2ee195.png)
+  - Fiware-based environment:
+
+      ![Architecture3](https://user-images.githubusercontent.com/6643905/219717111-a68e0f2b-423e-489a-893f-a04f3c2ee195.png)
+
+
+  - RabbitMQ-based environment:
+
+      <img width="518" alt="SDG" src="https://user-images.githubusercontent.com/6643905/234698920-2a24ac28-a1f5-453c-a0ed-10d709c48b9b.PNG">
 
 ## Requirements
 
