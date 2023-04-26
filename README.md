@@ -19,7 +19,7 @@ Basic project to send data from a CSV file over a socket.
 
   - RabbitMQ-based environment:
 
-      <img width="518" alt="SDG" src="https://user-images.githubusercontent.com/6643905/234698920-2a24ac28-a1f5-453c-a0ed-10d709c48b9b.PNG">
+      <img width="400" alt="SDG" src="https://user-images.githubusercontent.com/6643905/234698920-2a24ac28-a1f5-453c-a0ed-10d709c48b9b.PNG">
 
 ## Requirements
 
