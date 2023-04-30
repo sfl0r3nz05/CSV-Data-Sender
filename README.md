@@ -44,9 +44,12 @@ Basic project to send data from a CSV file over a socket.
 
 1. Set the environment variables of the `docker-compose.yml` file:
 
+  > **Note**: TIME_SLEEP defines the sending time between one packet and another.
+
     ```console
     SOCK_LISTENER_HOST=publisher
     SOCK_LISTENER_PORT=8053
+    TIME_SLEEP=0.9
     ```
 
 2. To launch the program using docker simply place your terminal in the project folder and run the following command:
