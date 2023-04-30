@@ -8,4 +8,4 @@ services:
     environment:
       - SOCK_LISTENER_HOST=publisher
       - SOCK_LISTENER_PORT=8053
-      - TIME_SLEEP=0.9
+      - SLEEP_TIME=0.9
