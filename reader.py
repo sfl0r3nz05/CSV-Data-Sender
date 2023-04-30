@@ -25,4 +25,4 @@ with open("UDP_107_108.csv", 'r') as file:
     else:
       result = f"{aux[0]};{aux[1]};T{aux[2]};{aux[3]}"
     send_server_socket.sendto(bytes(result, "utf-8"),(os.getenv("SOCK_LISTENER_HOST"),int(os.getenv("SOCK_LISTENER_PORT"))))
-    time.sleep(0.2)
+    time.sleep(0.9)
